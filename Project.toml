@@ -1,0 +1,10 @@
+name = "TestsetScope"
+uuid = "1184ee2f-4cb4-5b7c-bebe-a8073b34eeb7"
+authors = ["Jorge Fernandez-de-Cossio-Diaz <j.cossio.diaz@gmail.com>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
